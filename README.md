@@ -76,3 +76,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# CRUD_laravel
+
+Step 1: Before download the repository make sure that, php (>=7), mysql are installed.
+
+Step 2: Download Repository. After the download, move in repository and execute in your terminal $ composer update.
+
+Step 3: Configure the file .env on the place:
+    DB_CONNECTION=mysql
+    DB_HOST=localhost or 127.0.0.1
+    DB_PORT= your port (default is 3306)
+    DB_DATABASE= your database
+    DB_USERNAME= your username
+    DB_PASSWORD= your password
+
+Step 4: run the command $ php artisan migrate and $ php artisan serve.
+
+Hope u are satisfied.
